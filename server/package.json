@@ -1,0 +1,27 @@
+{
+  "name": "lumen-server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Express + MongoDB orchestration layer for the Lumen OCR/AI platform. Talks to the FastAPI ocr-service internally; the frontend only ever talks to this server.",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.0",
+    "form-data": "^4.0.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

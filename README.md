@@ -105,3 +105,4 @@ detection are still open extension points — see the docstrings that were
 in the original `layout_service.py` for the recommended libraries
 (table-transformer, LayoutLMv3, YOLOv11, pyzbar) if you want to add them
 back into `ocr-service/app/services/`.
+
